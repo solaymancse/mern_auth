@@ -1,0 +1,49 @@
+# Node.js specific files and directories
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment variable files
+.env
+.env.test
+.env.production
+
+# Ignore the coverage directory used by testing frameworks
+coverage/
+
+# Ignore the .next directory for Next.js
+.next/
+
+# Ignore the .nuxt directory for Nuxt.js
+.nuxt/
+
+# Ignore temporary files
+tmp/
+temp/
+
+# Ignore build output
+dist/
+build/
+
+# Ignore the .cache directory used by some tools
+.cache/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore MacOS-specific files
+.DS_Store
+
+# Ignore miscellaneous files
+*.swp
+*.bak
+*.log
+
+# Ignore local files used by Docker
+docker-compose.override.yml
